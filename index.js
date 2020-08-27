@@ -1,5 +1,3 @@
 function getFirstSelector(selector) {
-  if (selector === element) {
-    return element
-  }
+  document.querySelector(selector)
 };
